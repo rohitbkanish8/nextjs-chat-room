@@ -25,7 +25,7 @@ export default async function RootLayout({
       <body className={inter.className}>
         <NextAuthProvider>
           <nav className='flex justify-between items-center px-10 py-5 fixed top-0 left-0 w-full bg-white'>
-            <h1 className='text-3xl font-extrabold text-sky-950'>Rohit's <span className='text-red-500'>Chat</span></h1>
+            <h1 className='text-3xl font-extrabold text-sky-950'>Rohit&apos;s <span className='text-red-500'>Chat</span></h1>
             {session ? (
               <div className='flex items-center gap-6'>
                 <Image
